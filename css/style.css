@@ -1,0 +1,288 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+html {
+  font-family: var(--font-family);
+}
+
+body {
+  margin: 0;
+  background-color: #eeeff1;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  width: 1920px;
+  height: 700px;
+}
+
+.container {
+  width: 1200px;
+  height: 700px;
+  padding: 40px;
+  margin-left: 320px;
+}
+
+.header-content__title {
+  width: 541px;
+  height: 75px;
+}
+
+.header-content__description {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.64em;
+  color: #727272;
+  width: 540px;
+  height: 67px;
+  display: flex;
+}
+
+.navbar {
+  margin-bottom: 162px;
+}
+
+.navbar-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -0.75em;
+}
+
+.navbar-item {
+  max-width: 565px;
+  height: 16px;
+  margin: 16px;
+  display: block;
+  padding: 8px 12px;
+  font-weight: 400;
+}
+.navbar-item__home {
+  color: #34547a;
+}
+
+.header-content__wtm {
+  display: block;
+  background-color: #34547a;
+  color: white;
+  font-size: 16px;
+  line-height: 164%;
+  width: 225px;
+  height: 65px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 70px;
+}
+
+.about-section {
+  display: block;
+  background-color: #fff;
+  width: 1200px;
+  height: 300px;
+  border: 1px salmon;
+}
+
+.about-section__container {
+  width: 1200px;
+  height: 300px;
+  background-color: white;
+}
+
+.container-am {
+  width: 1920px;
+  height: 300px;
+  background-color: white;
+  padding: 70px;
+}
+
+.container-am__about {
+  width: 547px;
+  height: 147px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container-am__about-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.container-am__about-description {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 164%;
+  text-align: center;
+}
+
+.experience-section {
+  width: 1920px;
+  height: 250px;
+  background-color: #34547a;
+}
+
+.container-exp {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-exp__item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.exp-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.exp-item__num {
+  font-size: 21px;
+  font-weight: 500;
+  color: white;
+  flex-direction: column;
+}
+
+.exp-item__text {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+.exp-item__img {
+  width: 50px;
+  height: 50px;
+}
+
+.experience-section__title {
+  padding: 20px;
+  font-size: 32px;
+  font-weight: 500;
+  margin-left: 320px;
+  color: white;
+}
+
+.project {
+  display: flex;
+  gap: 6px;
+}
+
+.work-section {
+  width: 1920px;
+  height: 1004px;
+  background-color: #eeeff1;
+}
+
+.container-work {
+  width: 1920px;
+  height: 1004px;
+  background-color: #eeeff1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.work-section__content {
+  width: 540px;
+  height: 147px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.work-section__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 100%;
+  margin-bottom: 40px;
+}
+
+.work-section__description {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 164%;
+}
+
+.work-section__img-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-section__img-wrapper-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.work-section__img-wrapper img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  background-color: #34547a;
+  width: 1920px;
+  height: 151px;
+}
+
+.container-footer {
+  margin-left: 320px;
+  padding: 40px;
+}
+
+.footer__copyright {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 164%;
+}
+
+.footer-content {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 100%;
+  color: #fff;
+}
