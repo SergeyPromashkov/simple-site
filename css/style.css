@@ -45,15 +45,18 @@ img {
 }
 
 .header {
-  width: 1920px;
+  max-width: 1920px;
+  width: 100%;
   height: 700px;
+  margin: 0 auto;
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   height: 700px;
   padding: 40px;
-  margin-left: 320px;
+  margin: 0 auto;
 }
 
 .header__title {
@@ -112,22 +115,28 @@ img {
 .about {
   display: block;
   background-color: #fff;
-  width: 1200px;
+  max-width: 1920px;
+  width: 100%;
   height: 300px;
+  margin: 0 auto;
   border: 1px salmon;
 }
 
 .about__container {
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   height: 300px;
   background-color: white;
+  margin: 0 auto;
 }
 
 .about__wrapper {
-  width: 1920px;
+  max-width: 1920px;
+  width: 100%;
   height: 300px;
   background-color: white;
   padding: 70px;
+  margin: 0 auto;
 }
 
 .about__content {
@@ -156,13 +165,16 @@ img {
 }
 
 .experience {
-  width: 1920px;
+  max-width: 1920px;
+  width: 100%;
   height: 250px;
   background-color: #34547a;
+  margin: 0 auto;
 }
 
 .experience__container {
   max-width: 1150px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -203,7 +215,7 @@ img {
   padding: 20px;
   font-size: 32px;
   font-weight: 500;
-  margin-left: 320px;
+  margin-left: 374px;
   color: white;
 }
 
@@ -213,19 +225,23 @@ img {
 }
 
 .work {
-  width: 1920px;
+  max-width: 1920px;
+  width: 100%;
   height: 1004px;
   background-color: #eeeff1;
+  margin: 0 auto;
 }
 
 .work__container {
-  width: 1920px;
+  max-width: 1920px;
+  width: 100%;
   height: 1004px;
   background-color: #eeeff1;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin: 0 auto;
 }
 
 .work__content {
@@ -272,12 +288,16 @@ img {
 
 .footer {
   background-color: #34547a;
-  width: 1920px;
+  max-width: 1920px;
+  width: 100%;
   height: 151px;
+  margin: 0 auto;
 }
 
 .footer__container {
-  margin-left: 320px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
   padding: 40px;
 }
 
@@ -286,7 +306,7 @@ img {
   font-weight: 400;
   font-size: 13px;
   line-height: 164%;
-  margin-left: 45px;
+  margin-left: 5px;
 }
 
 .footer__title {
@@ -294,5 +314,5 @@ img {
   font-size: 21px;
   line-height: 100%;
   color: #fff;
-  margin-left: 45px;
+  margin-left: 5px;
 }
