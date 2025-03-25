@@ -16,6 +16,7 @@ html {
 body {
   margin: 0;
   background-color: #eeeff1;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -54,6 +55,7 @@ img {
 .header-content__title {
   width: 541px;
   height: 75px;
+  margin-left: -3.8px;
 }
 
 .header-content__description {
@@ -68,6 +70,7 @@ img {
 
 .navbar {
   margin-bottom: 162px;
+  margin-left: -17px;
 }
 
 .navbar-list {
@@ -88,7 +91,7 @@ img {
   color: #34547a;
 }
 
-.header-content__wtm {
+.header-content__button {
   display: block;
   background-color: #34547a;
   color: white;
@@ -278,6 +281,7 @@ img {
   font-weight: 400;
   font-size: 13px;
   line-height: 164%;
+  margin-left: 45px;
 }
 
 .footer-content {
@@ -285,4 +289,5 @@ img {
   font-size: 21px;
   line-height: 100%;
   color: #fff;
+  margin-left: 45px;
 }
