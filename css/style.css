@@ -13,6 +13,10 @@ html {
   font-family: var(--font-family);
 }
 
+.nav__item:hover {
+  text-shadow: 0 0 8px rgba(52, 84, 122, 0.5);
+}
+
 body {
   margin: 0;
   background-color: #eeeff1;
@@ -52,13 +56,13 @@ img {
   margin-left: 320px;
 }
 
-.header-content__title {
+.header__title {
   width: 541px;
   height: 75px;
   margin-left: -3.8px;
 }
 
-.header-content__description {
+.header__description {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.64em;
@@ -68,18 +72,18 @@ img {
   display: flex;
 }
 
-.navbar {
+.nav {
   margin-bottom: 162px;
   margin-left: -17px;
 }
 
-.navbar-list {
+.nav__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -0.75em;
 }
 
-.navbar-item {
+.nav__item {
   max-width: 565px;
   height: 16px;
   margin: 16px;
@@ -87,11 +91,12 @@ img {
   padding: 8px 12px;
   font-weight: 400;
 }
-.navbar-item__home {
+
+.nav__item--active {
   color: #34547a;
 }
 
-.header-content__button {
+.header__button {
   display: block;
   background-color: #34547a;
   color: white;
@@ -104,7 +109,7 @@ img {
   margin-top: 70px;
 }
 
-.about-section {
+.about {
   display: block;
   background-color: #fff;
   width: 1200px;
@@ -112,20 +117,20 @@ img {
   border: 1px salmon;
 }
 
-.about-section__container {
+.about__container {
   width: 1200px;
   height: 300px;
   background-color: white;
 }
 
-.container-am {
+.about__wrapper {
   width: 1920px;
   height: 300px;
   background-color: white;
   padding: 70px;
 }
 
-.container-am__about {
+.about__content {
   width: 547px;
   height: 147px;
   display: flex;
@@ -134,7 +139,7 @@ img {
   margin: 0 auto;
 }
 
-.container-am__about-title {
+.about__title {
   font-weight: 500;
   font-size: 32px;
   line-height: 100%;
@@ -142,7 +147,7 @@ img {
   margin-bottom: 40px;
 }
 
-.container-am__about-description {
+.about__description {
   color: #727272;
   font-weight: 400;
   font-size: 16px;
@@ -150,38 +155,38 @@ img {
   text-align: center;
 }
 
-.experience-section {
+.experience {
   width: 1920px;
   height: 250px;
   background-color: #34547a;
 }
 
-.container-exp {
+.experience__container {
   max-width: 1150px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-.container-exp__item {
+.experience__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 30px;
 }
 
-.exp-item {
+.experience__item {
   display: flex;
   flex-direction: column;
 }
 
-.exp-item__num {
+.experience__number {
   font-size: 21px;
   font-weight: 500;
   color: white;
   flex-direction: column;
 }
 
-.exp-item__text {
+.experience__text {
   display: flex;
   flex-direction: column;
   font-size: 16px;
@@ -189,12 +194,12 @@ img {
   color: white;
 }
 
-.exp-item__img {
+.experience__image {
   width: 50px;
   height: 50px;
 }
 
-.experience-section__title {
+.experience__title {
   padding: 20px;
   font-size: 32px;
   font-weight: 500;
@@ -207,13 +212,13 @@ img {
   gap: 6px;
 }
 
-.work-section {
+.work {
   width: 1920px;
   height: 1004px;
   background-color: #eeeff1;
 }
 
-.container-work {
+.work__container {
   width: 1920px;
   height: 1004px;
   background-color: #eeeff1;
@@ -223,7 +228,7 @@ img {
   text-align: center;
 }
 
-.work-section__content {
+.work__content {
   width: 540px;
   height: 147px;
   text-align: center;
@@ -232,35 +237,35 @@ img {
   margin-bottom: 70px;
 }
 
-.work-section__title {
+.work__title {
   font-weight: 500;
   font-size: 32px;
   line-height: 100%;
   margin-bottom: 40px;
 }
 
-.work-section__description {
+.work__description {
   color: #727272;
   font-weight: 400;
   font-size: 16px;
   line-height: 164%;
 }
 
-.work-section__img-wrapper {
+.work__image-wrapper {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.work-section__img-wrapper-item {
+.work__image {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.work-section__img-wrapper img {
+.work__image img {
   max-width: 100%;
   height: auto;
 }
@@ -271,7 +276,7 @@ img {
   height: 151px;
 }
 
-.container-footer {
+.footer__container {
   margin-left: 320px;
   padding: 40px;
 }
@@ -284,7 +289,7 @@ img {
   margin-left: 45px;
 }
 
-.footer-content {
+.footer__title {
   font-weight: 500;
   font-size: 21px;
   line-height: 100%;
