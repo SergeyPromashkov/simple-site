@@ -14,7 +14,8 @@ html {
 }
 
 .nav__item:hover {
-  text-shadow: 0 0 8px rgba(52, 84, 122, 0.5);
+  transition: 0.9s;
+  color: #008deb;
 }
 
 body {
@@ -38,6 +39,8 @@ h2 {
 a {
   text-decoration: none;
   color: inherit;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 img {
@@ -47,7 +50,7 @@ img {
 .header {
   max-width: 1920px;
   width: 100%;
-  height: 700px;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -62,7 +65,7 @@ img {
 .header__title {
   width: 541px;
   height: 75px;
-  margin-left: -3.8px;
+  margin-left: 1.9px;
 }
 
 .header__description {
@@ -73,6 +76,7 @@ img {
   width: 540px;
   height: 67px;
   display: flex;
+  margin-left: 5px;
 }
 
 .nav {
@@ -83,7 +87,7 @@ img {
 .nav__list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -0.75em;
+  margin-left: -6.4px;
 }
 
 .nav__item {
@@ -110,6 +114,12 @@ img {
   text-align: center;
   padding: 20px;
   margin-top: 70px;
+  margin-left: 5.3px;
+}
+
+.header__button:hover {
+  transition: 0.9s;
+  background-color: #008deb;
 }
 
 .about {
@@ -125,7 +135,7 @@ img {
 .about__container {
   max-width: 1200px;
   width: 100%;
-  height: 300px;
+  height: auto;
   background-color: white;
   margin: 0 auto;
 }
@@ -184,9 +194,18 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 30px;
+  margin: 0 auto;
 }
 
 .experience__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-top: 90px;
+}
+
+.experience__content {
   display: flex;
   flex-direction: column;
 }
@@ -195,15 +214,18 @@ img {
   font-size: 21px;
   font-weight: 500;
   color: white;
-  flex-direction: column;
+  margin-bottom: 5px;
 }
 
 .experience__text {
-  display: flex;
-  flex-direction: column;
   font-size: 16px;
   font-weight: 500;
   color: white;
+}
+
+.experience__image-wrapper {
+  display: flex;
+  align-items: center;
 }
 
 .experience__image {
@@ -217,6 +239,8 @@ img {
   font-weight: 500;
   margin-left: 374px;
   color: white;
+  width: auto;
+  height: auto;
 }
 
 .project {
