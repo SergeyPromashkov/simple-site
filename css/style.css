@@ -133,8 +133,8 @@ img {
 }
 
 .about__container {
-  max-width: 1920px;
-  width: 100%;
+  max-width: 100%;
+ 
   height: auto;
   background-color: white;
   margin: 0 auto;
@@ -156,8 +156,6 @@ img {
   flex-direction: column;
   text-align: center;
   margin: 0 auto;
-  flex-direction: wrap;
-
 }
 
 .about__title {
@@ -306,6 +304,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  max-width: 100%;
 }
 
 .work__image img {
@@ -357,7 +356,7 @@ img {
 
 @media (min-width: 481px) and (max-width: 768px) {
   .header {
-      padding: 40px;
+      
       min-height: 500px; 
   }
 }
@@ -365,7 +364,9 @@ img {
 
 @media (min-width: 769px) {
   .header {
-      padding: 80px;
+      
       min-height: 700px; 
   }
 }
+
+
